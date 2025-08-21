@@ -12,20 +12,20 @@ Les démonstrations portent sur les niveaux suivants :
 - Distribution orientée **pentest** et **vie privée/anonymat**.
 - Le pare-feu **UFW** est installé par défaut mais désactivé → à activer/configurer par l’utilisateur.
 - Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
-- Plus légère que Kali, adaptée aux **machines modestes** et à la virtualisation (VirtualBox, VMware).
+- Plus légère que Kali, adaptée aux **machines modestes** et virtualisation (VirtualBox, VMware).
 
 ---
 
-## Niveau 6 (standalone, machine protégée)
+## Niveau 6 (standalone, machine personnelle protégée)
 
-## Niveau 7 (NAT / Lab, routeur VM)
+## Niveau 7 (NAT / Lab, machine routeur en VM)
 
 ---
 
 # 📌 Explications
 
-- **Niveau 6** → protège uniquement ta machine personnelle.
-- **Niveau 7** → transforme ta machine en pare-feu + routeur pour un réseau virtuel.
+- **Niveau 6** → protège spécifiquement ta machine personnelle.
+- **Niveau 7** → transforme ta machine en pare-feu et routeur pour un réseau virtuel.
 
 📸 Exemple de capture d’écran (nftables actif en niveau 6) :
 ![Capture d’écran Niveau 6](images/niveau6.png)
