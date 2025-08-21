@@ -3,6 +3,20 @@
 <img src="Photo Parrot.PNG" alt="Illustration Parrot OS" style="max-width: 100%; height: auto;" />
 </p>
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
+[![Licence](https://img.shields.io/badge/license-MIT-green.svg)]()
+[![Stabilité](https://img.shields.io/badge/stable-stable-brightgreen.svg)]()
+
+<h1 align="center">Projet Firewall — Parrot OS</h1>
+
+---
+
+## Niveau 6 (standalone, machine personnelle protégée)
+
+<p align="center">
+<img src="parrot3.PNG" alt="Capture Niveau 6" style="max-width: 100%; height: auto;" />
+</p>
+
 Ce projet présente la configuration de pare-feux avancés sous **Parrot Security OS**, une distribution orientée **pentest** et **protection de la vie privée/anonymat**.
 
 Les démonstrations portent sur les niveaux suivants :
