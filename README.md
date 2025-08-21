@@ -7,7 +7,6 @@
 [![Licence](https://img.shields.io/badge/license-MIT-green.svg)]()
 [![Stabilité](https://img.shields.io/badge/stable-stable-brightgreen.svg)]()
 
-<h1 align="center">Projet Firewall — Parrot OS</h1>
 
 ---
 
