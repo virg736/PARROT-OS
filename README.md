@@ -23,9 +23,11 @@ Les démonstrations portent sur les niveaux suivants :
 </p>
 
 
-
-
 ## Niveau 7 (NAT / Lab, machine routeur en VM)
+
+<p align="center">
+<img src="PARROT2.PNG" alt="Capture Parrot OS 2" width="600"/>
+</p>
 
 ---
 
