@@ -9,6 +9,21 @@
 <img src="Photo Parrot.PNG" alt="Illustration Parrot OS" style="max-width: 100%; height: auto;" />
 </p>
 
+<p align="center">
+© 2025 <strong>virg736</strong> — Tous droits réservés. Reproduction interdite sans autorisation.
+</p>
+
+<p align="center">
+<a href="https://creativecommons.org/licenses/by-nd/4.0/">
+<img src="https://licensebuttons.net/l/by-nd/4.0/88x31.png" alt="Licence: CC BY-ND 4.0" />
+</a>
+<img src="https://img.shields.io/badge/stabilité-stable-brightgreen.svg" alt="Stabilité : stable" />
+</p>
+
+<p align="center">
+<strong>📸 Image protégée — Propriété exclusive</strong>
+</p>
+
 ---
 
 Ce projet présente la configuration de pare-feux avancés sous **Parrot Security OS**, une distribution orientée **pentest** et **protection de la vie privée/anonymat**.
