@@ -112,7 +112,7 @@ Les niveaux 6 et 7 démontrent deux cas concrets :
 🌐 **Mise en place d’un routeur/firewall complet** pour un lab réseau.
 
 👉 Ce projet illustre comment un firewall peut évoluer :
-d’une **simple protection locale** ➝ à un **composant réseau avancé**.
+d’une **simple protection locale** ➝ vers un **composant réseau avancé**.
 
 ---
 
