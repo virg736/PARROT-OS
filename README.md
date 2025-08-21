@@ -1,4 +1,7 @@
 ## Projet Firewall — Parrot OS
+<p align="center">
+<img src="Photo Parrot.PNG" alt="Illustration Parrot OS" style="max-width: 100%; height: auto;" />
+</p>
 
 Ce projet présente la configuration de pare-feux avancés sous **Parrot Security OS**, une distribution orientée **pentest** et **protection de la vie privée/anonymat**.
 
