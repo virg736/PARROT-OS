@@ -19,31 +19,46 @@ Les démonstrations portent sur les niveaux suivants :
 
 ---
 
-# Niveau 6 (standalone, machine protégée)
+## Niveau 6 (standalone, machine protégée)
 
-# Niveau 7 (NAT / Lab, routeur VM)
-
----
-
-
+## Niveau 7 (NAT / Lab, routeur VM)
 
 ---
 
-#  Limites et bonnes pratiques
+# 📌 Explications
 
-Un firewall réduit la surface d’attaque mais ne protège pas de tout.
+- **Niveau 6** → protège uniquement ta machine personnelle.
+- **Niveau 7** → transforme ta machine en pare-feu + routeur pour un réseau virtuel.
 
-Un hacker expérimenté peut :
+📸 Exemple de capture d’écran (nftables actif en niveau 6) :
+![Capture d’écran Niveau 6](images/niveau6.png)
 
-passer par un port ouvert (SSH, HTTPS),
+📸 Exemple de capture d’écran (nftables NAT/routeur niveau 7) :
+![Capture d’écran Niveau 7](images/niveau7.png)
 
-exploiter une faille logicielle,
+---
 
-utiliser du tunneling (DNS, HTTP(S)),
+# 🖥️ Démonstrations
 
-contourner via IPv6 si mal configuré.
+➡️ **Application des règles** :
 
-👉 Solution : combiner avec un IDS/IPS (Snort, Suricata), du monitoring (logs, SIEM), et de bonnes pratiques (MFA, patchs, segmentation réseau).
+---
+# ⚠️ Limites et bonnes pratiques
+
+Un pare-feu réduit la surface d’attaque, mais **il ne protège pas de tout**.
+Un attaquant expérimenté peut toujours tenter de :
+
+- Passer par un service autorisé (ex : **SSH, HTTPS**).
+- Exploiter une **faille applicative**.
+- Utiliser du **tunneling** (DNS, HTTPS).
+- Contourner via **IPv6** si mal configuré.
+
+👉 **Conclusion :**
+Un firewall seul n’est pas suffisant.
+Il doit être combiné avec :
+- un **IDS/IPS** (Snort, Suricata),
+- du **monitoring** (logs, SIEM),
+- et des **bonnes pratiques** : MFA, mises à jour régulières, segmentation réseau, durcissement système.
 
 ---
 
