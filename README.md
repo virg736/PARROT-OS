@@ -21,81 +21,11 @@ Les démonstrations portent sur les niveaux suivants :
 
 # Niveau 6 (standalone, machine protégée)
 
-table inet filter {
-chain input {
-type filter hook input priority 0;
-policy drop;
-
-# Autoriser loopback
-iif "lo" accept
-
-# Autoriser connexions établies
-ct state established,related accept
-
-# Autoriser ping (IPv4 & IPv6)
-ip protocol icmp accept
-ip6 nexthdr icmpv6 accept
-
-# Autoriser SSH + HTTP/HTTPS
-tcp dport {22,80,443} accept
-
-# Autoriser DNS
-tcp dport 53 accept
-udp dport 53 accept
-}
-}
-
-
 # Niveau 7 (NAT / Lab, routeur VM)
-table inet filter {
-chain input {
-type filter hook input priority 0;
-policy drop;
-
-iif "lo" accept
-ct state established,related accept
-ip protocol icmp accept
-ip6 nexthdr icmpv6 accept
-tcp dport {22,80,443} accept
-tcp dport 53 accept
-udp dport 53 accept
-}
-
-chain forward {
-type filter hook forward priority 0;
-policy drop;
-
-# Autoriser le LAN interne vers Internet
-iif "eth1" oif "eth0" accept
-ct state established,related accept
-}
-}
-
-table ip nat {
-chain postrouting {
-type nat hook postrouting priority 100;
-oif "eth0" masquerade
-}
-}
 
 ---
 
-# 📌 Explications :
 
-Niveau 6 → protège ta machine personnelle.
-
-Niveau 7 → transforme ta machine en pare-feu + routeur pour un réseau virtuel.
-
----
-
-#  Démonstrations
-Application des règles :
-
-sudo nft -f /etc/nftables.conf
-
-Vérification des règles actives :
-
-sudo nft list ruleset
 
 ---
 
