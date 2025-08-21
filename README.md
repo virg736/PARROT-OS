@@ -1,30 +1,21 @@
-# Objectif du projet
+## Objectif du projet
 
-Ce projet montre la configuration de pare-feu avancés sous Parrot Security OS, une distribution orientée pentest + vie privée/anonymat.
+Ce projet présente la configuration de pare-feux avancés sous **Parrot Security OS**, une distribution orientée **pentest** et **protection de la vie privée/anonymat**.
+
+Les démonstrations portent sur les niveaux suivants :
+
+- **Niveau 6 — nftables (avancé, machine seule)**
+- **Niveau 7 — nftables (NAT/Lab, routeur pour un lab de VM)**
+
+## Pourquoi Parrot OS ?
+
+- Distribution orientée **pentest** et **vie privée/anonymat**.
+- Le pare-feu **UFW** est installé par défaut mais désactivé → à activer/configurer par l’utilisateur.
+- Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
+- Plus légère que Kali, adaptée aux **machines modestes** et à la virtualisation (VirtualBox, VMware).
 
 
-Les démonstrations se concentrent sur les niveaux :
 
-Niveau 6 — nftables (avancé, standalone)
-
-Niveau 7 — nftables (NAT / Lab, routeur VM)
-
----
-
-# Pourquoi Parrot OS ?
-
-Distribution orientée pentest + vie privée/anonymat.
-
-Le pare-feu ufw est installé par défaut mais désactivé → à activer/configurer par l’utilisateur.
-
-Intègre directement des outils privacy (Tor, Anonsurf, OnionShare).
-
-Plus légère que Kali, adaptée aux machines modestes et à la virtualisation (VirtualBox, VMware).
-
-# Niveaux de sécurité présentés
-Niveau 6 — nftables avancé : politique drop par défaut, ouverture sélective (SSH, DNS, HTTP/HTTPS).
-
-Niveau 7 — nftables NAT/Lab : le système devient routeur/firewall pour un LAN virtuel.
 
 ---
 
