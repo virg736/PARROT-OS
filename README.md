@@ -40,14 +40,6 @@ Les démonstrations portent sur les niveaux suivants :
 <img src="parrot3.PNG" alt="Capture Parrot OS 3" width="600"/>
 </p>
 
-
-
- Exemple de capture d’écran (nftables actif en niveau 6) :
-![Capture d’écran Niveau 6](images/niveau6.png)
-
- Exemple de capture d’écran (nftables NAT/routeur niveau 7) :
-![Capture d’écran Niveau 7](images/niveau7.png)
-
 ---
 
 #  Démonstrations
