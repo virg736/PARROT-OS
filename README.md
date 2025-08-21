@@ -17,9 +17,12 @@ Les démonstrations portent sur les niveaux suivants :
 ---
 
 ## Niveau 6 (standalone, machine personnelle protégée)
-# Mon projet
 
-Voici une capture d’écran :
+<p align="center">
+<img src="PARROT1.PNG" alt="Capture Parrot OS 1" width="600"/>
+</p>
+
+
 
 
 ## Niveau 7 (NAT / Lab, machine routeur en VM)
