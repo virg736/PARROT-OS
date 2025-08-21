@@ -17,6 +17,11 @@ Les démonstrations portent sur les niveaux suivants :
 ---
 
 ## Niveau 6 (standalone, machine personnelle protégée)
+# Mon projet
+
+Voici une capture d’écran :
+
+![Capture écran](images/capture1.png)
 
 ## Niveau 7 (NAT / Lab, machine routeur en VM)
 
