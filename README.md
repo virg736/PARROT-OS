@@ -36,6 +36,12 @@ Les démonstrations portent sur les niveaux suivants :
 - **Niveau 6** → protège spécifiquement ta machine personnelle.
 - **Niveau 7** → transforme ta machine en pare-feu et routeur pour un réseau virtuel.
 
+<p align="center">
+<img src="parrot3.PNG" alt="Capture Parrot OS 3" width="600"/>
+</p>
+
+
+
  Exemple de capture d’écran (nftables actif en niveau 6) :
 ![Capture d’écran Niveau 6](images/niveau6.png)
 
