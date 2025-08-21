@@ -27,20 +27,21 @@
 ---
 
 ## Sommaire
+
 - [Introduction](#introduction)
 - [Pourquoi Parrot OS ?](#pourquoi-parrot-os)
-- [Présentation des niveaux de configuration](#niveaux)
-- [Niveau 6 : Pare-feu personnel](#niveau-6)
-- [Niveau 7 : Pare-feu réseau](#niveau-7)
-- [Démonstrations](#demonstrations)
-- [Limites et bonnes pratiques](#limites)
-- [Techniques de contournement](#contournement)
-- [Exemple : Tunnel DNS](#tunnel-dns)
+- [Niveau 6 : Pare-feu personnel](#niveau-6--pare-feu-personnel)
+- [Niveau 7 : Pare-feu réseau](#niveau-7--pare-feu-réseau)
+- [Explications](#explications)
+- [Limites et bonnes pratiques](#limites-et-bonnes-pratiques)
+- [Comment un hacker pourrait contourner](#comment-un-hacker-pourrait-contourner)
+- [Exemple : tunnel dns](#exemple--tunnel-dns)
+- [Différences entre les niveaux 6 et 7](#differences-entre-les-niveaux-6-et-7)
 - [Conclusion](#conclusion)
-- [Technologies utilisées](#technologies)
+- [Technologies utilisées](#technologies-utilisees)
 - [Licence](#licence)
-- [À propos de l’usage](#usage)
-- [Droits sur les visuels](#droits)
+- [À propos de l’usage](#a-propos-de-lusage)
+- [Droits sur les visuels](#droits-sur-les-visuels)
 - [Auteur](#auteur)
 
 
