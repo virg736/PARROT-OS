@@ -36,9 +36,9 @@ Les démonstrations portent sur les niveaux suivants :
 ## Pourquoi Parrot OS ?
 
 - Distribution orientée **pentest** et **vie privée/anonymat**.
-- Le pare-feu **UFW** est installé par défaut mais désactivé → à activer/configurer par l’utilisateur.
+- Le pare-feu **UFW** est déjà installé mais par défaut il est désactivé → c'est à l’utilisateur de l'activer/configurer .
 - Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
-- Plus légère que Kali, adaptée aux **machines modestes** et virtualisation (VirtualBox, VMware).
+- Plus légère que Kali, adaptée aux **machines modestes** ou la virtualisation (VirtualBox, VMware).
 
 ---
 
