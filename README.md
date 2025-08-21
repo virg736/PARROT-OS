@@ -1,11 +1,6 @@
-Projet Firewall — Parrot OS
-
-
 # Objectif du projet
 
-
 Ce projet montre la configuration de pare-feu avancés sous Parrot Security OS, une distribution orientée pentest + vie privée/anonymat.
-
 
 
 Les démonstrations se concentrent sur les niveaux :
@@ -14,7 +9,10 @@ Niveau 6 — nftables (avancé, standalone)
 
 Niveau 7 — nftables (NAT / Lab, routeur VM)
 
+---
+
 # Pourquoi Parrot OS ?
+
 Distribution orientée pentest + vie privée/anonymat.
 
 Le pare-feu ufw est installé par défaut mais désactivé → à activer/configurer par l’utilisateur.
@@ -28,6 +26,7 @@ Niveau 6 — nftables avancé : politique drop par défaut, ouverture sélective
 
 Niveau 7 — nftables NAT/Lab : le système devient routeur/firewall pour un LAN virtuel.
 
+---
 
 # Niveau 6 (standalone, machine protégée)
 
@@ -88,12 +87,15 @@ oif "eth0" masquerade
 }
 }
 
+---
+
 # 📌 Explications :
 
 Niveau 6 → protège ta machine personnelle.
 
 Niveau 7 → transforme ta machine en pare-feu + routeur pour un réseau virtuel.
 
+---
 
 #  Démonstrations
 Application des règles :
@@ -104,11 +106,9 @@ Vérification des règles actives :
 
 sudo nft list ruleset
 
-
-Tests (ping, HTTP, DNS, etc.) avec captures d’écran (GitHub + YouTube).
+---
 
 #  Limites et bonnes pratiques
-
 
 Un firewall réduit la surface d’attaque mais ne protège pas de tout.
 
@@ -122,9 +122,9 @@ utiliser du tunneling (DNS, HTTP(S)),
 
 contourner via IPv6 si mal configuré.
 
-
-
 👉 Solution : combiner avec un IDS/IPS (Snort, Suricata), du monitoring (logs, SIEM), et de bonnes pratiques (MFA, patchs, segmentation réseau).
+
+---
 
 # Conclusion
 Parrot OS est une alternative solide à Kali, plus légère et orientée vie privée.
