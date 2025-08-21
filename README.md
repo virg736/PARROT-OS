@@ -165,7 +165,7 @@ d’une **simple protection locale** ➝ vers un **composant réseau avancé**.
 Le script est publié sous la licence MIT.
 
 ## À propos de l’usage
-Ce projet est destiné exclusivement à des fins pédagogiques, notamment dans le cadre :
+Ce projet est destiné exclusivement à des fins pédagogiques, notamment dans le cadre de :
 - d’une formation en cybersécurité,
 - de tests d’intrusion légaux (pentest),
 - d’analyses réseau dans un environnement contrôlé.
