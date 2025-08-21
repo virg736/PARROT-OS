@@ -70,7 +70,7 @@ Les démonstrations portent sur les niveaux suivants :
 
 #  Démonstrations
 
-➡️ **Application des règles** :
+➡️ **Application des règles** : Mise en place et exécution des règles de filtrage via nftables afin de contrôler le trafic réseau (entrées, sorties, redirections).
 
 ---
 # ⚠️ Limites et bonnes pratiques
