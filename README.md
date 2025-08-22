@@ -1,6 +1,5 @@
 ## Projet Firewall — Parrot OS
 [![Password Check](https://github.com/virg736/PARROT-OS/actions/workflows/blank.yml/badge.svg)](https://github.com/virg736/PARROT-OS/actions/workflows/blank.yml)
-
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![Licence](https://img.shields.io/badge/license-MIT-green.svg)]()
 
@@ -59,9 +58,10 @@ Les démonstrations portent sur les niveaux suivants :
 ## Pourquoi Parrot OS ?
 
 - Distribution orientée **pentest** et **vie privée/anonymat**.
-- Le pare-feu **UFW** est déjà installé mais par défaut il est désactivé → c'est à l’utilisateur de l'activer/configurer .
 - Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
 - Plus légère que Kali, adaptée aux **machines modestes** ou la virtualisation (VirtualBox, VMware).
+- UFW préinstallé mais désactivé → l’utilisateur garde le contrôle
+- Le pare-feu **UFW** est déjà préinstallé mais désactivé par defaut → L’utilisateur doit l'active et le configurer manuellement.
 
 ---
 
