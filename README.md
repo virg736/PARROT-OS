@@ -102,9 +102,9 @@ Un pare-feu réduit la surface d’attaque, mais **il ne protège pas de tout**.
 Un attaquant expérimenté peut toujours tenter de :
 
 - Passer par un service autorisé (ex : **SSH, HTTPS**).
-- Exploiter une **faille applicative**.
+- Exploiter une **faille au niveau applicatif**.
 - Utiliser du **tunneling** (DNS, HTTPS).
-- Contourner via **IPv6** si mal configuré.
+- Contourner via **IPv6** si celui-ci est mal configuré.
 
 👉 **Conclusion :**
 Un firewall seul n’est pas suffisant.
