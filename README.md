@@ -73,7 +73,7 @@ Les démonstrations portent sur les niveaux suivants :
 
 
 ## Niveau 7 (NAT / Lab, machine routeur en VM)
-
+*Exemple de configuration nftables en mode routeur (NAT) pour un lab de VM.*
 <p align="center">
 <img src="PARROT2.PNG" alt="Capture Parrot OS 2" width="600"/>
 </p>
