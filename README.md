@@ -129,8 +129,8 @@ Même avec un firewall avancé (niveaux 6 et 7), il existe des **techniques de c
 
 ---
 
-👉 **C’est pourquoi un firewall seul ne suffit pas** :
-il faut le **combiner avec IDS/IPS + monitoring**.
+👉 **C’est pourquoi un pare-feu seul ne suffit pas** :
+il doit être complété par un**IDS/IPS et monitoring**.
 
 ---
 
