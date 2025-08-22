@@ -1,4 +1,5 @@
 ## Projet Firewall — Parrot OS
+[![Password Check](https://github.com/virg736/PARROT-OS/actions/workflows/blank.yml/badge.svg)](https://github.com/virg736/PARROT-OS/actions/workflows/blank.yml)
 ![ShellCheck](https://github.com/virg736/PARROT-OS/actions/workflows/blank.yml/badge.svg)
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![Licence](https://img.shields.io/badge/license-MIT-green.svg)]()
