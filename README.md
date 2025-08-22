@@ -60,8 +60,7 @@ Les démonstrations portent sur les niveaux suivants :
 - Distribution orientée **pentest** et **vie privée/anonymat**.
 - Intègre des outils de confidentialité (Tor, Anonsurf, OnionShare).
 - Plus légère que Kali, adaptée aux **machines modestes** ou la virtualisation (VirtualBox, VMware).
-- UFW préinstallé mais désactivé → l’utilisateur garde le contrôle
-- Le pare-feu **UFW** est déjà préinstallé mais désactivé par defaut → L’utilisateur doit l'active et le configurer manuellement.
+- UFW préinstallé mais désactivé → l’utilisateur garde le contrôle → L’utilisateur doit l'active et le configurer manuellement.
 
 ---
 
