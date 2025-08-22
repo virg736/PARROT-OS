@@ -12,6 +12,8 @@
 <p align="center">
 © 2025 <strong>virg736</strong> — Tous droits réservés. Reproduction interdite sans autorisation.
 </p>
+![Niveau 6 — Firewall standalone](PARROT1.PNG)
+*Exemple de configuration nftables pour une machine isolée (standalone).*
 
 <p align="center">
 <a href="https://creativecommons.org/licenses/by-nd/4.0/">
