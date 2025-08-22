@@ -12,8 +12,7 @@
 <p align="center">
 © 2025 <strong>virg736</strong> — Tous droits réservés. Reproduction interdite sans autorisation.
 </p>
-![Niveau 6 — Firewall standalone](PARROT1.PNG)
-*Exemple de configuration nftables pour une machine isolée (standalone).*
+
 
 <p align="center">
 <a href="https://creativecommons.org/licenses/by-nd/4.0/">
@@ -67,7 +66,7 @@ Les démonstrations portent sur les niveaux suivants :
 ---
 
 ## Niveau 6 (standalone, machine personnelle protégée)
-
+*Exemple de configuration nftables pour une machine isolée (standalone).*
 <p align="center">
 <img src="PARROT1.PNG" alt="Capture Parrot OS 1" width="600"/>
 </p>
