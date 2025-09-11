@@ -1,1 +1,26 @@
+name: Password Check
 
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read     # le workflow peut seulement LIRE le repo (principe du moindre privilège)
+
+jobs:
+  passwd-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Run passwd check
+        run: python passwd_check.py
