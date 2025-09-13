@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# passwd_check.py – Vérification de robustesse des mots de passe
+# Copyright (c) 2025 Virginie Lechene
+# SPDX-License-Identifier: MIT
+# Voir le fichier LICENSE pour plus de détails.
+
 import re
 import sys
 
