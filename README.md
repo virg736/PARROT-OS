@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-© 2025 <strong>virg736</strong> — Tous droits réservés. Reproduction interdite sans autorisation.
+© 2025 <strong>virg736</strong> - Tous droits réservés. Reproduction interdite sans autorisation.
 </p>
 
 
@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-<strong>📸 Image protégée — Propriété exclusive</strong>
+<strong>📸 Image protégée - Propriété exclusive</strong>
 </p>
 
 ---
