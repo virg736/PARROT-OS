@@ -53,8 +53,8 @@ Ce projet présente la configuration de pare-feux avancés sous **Parrot Securit
 
 Les démonstrations portent sur les niveaux suivants :
 
-- **Niveau 6 — nftables (avancé, machine seule)**
-- **Niveau 7 — nftables (NAT/Lab, routeur pour un lab de VM)**
+- **Niveau 6 - nftables (avancé, machine seule)**
+- **Niveau 7 - nftables (NAT/Lab, routeur pour un lab de VM)**
 
 ## Pourquoi Parrot OS ?
 
