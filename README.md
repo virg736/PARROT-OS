@@ -21,10 +21,6 @@
 <img src="https://img.shields.io/badge/stabilité-stable-brightgreen.svg" alt="Stabilité : stable" />
 </p>
 
-<p align="center">
-<strong>📸 Image protégée - Propriété exclusive</strong>
-</p>
-
 ---
 
 ## Sommaire
