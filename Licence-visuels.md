@@ -3,7 +3,7 @@ Licence des visuels
 ## 🧾 Licences
 
 
-- **Visuels (images, captures)** : [CC BY-ND 4.0](./Licence-visuels.md) – usage pédagogique uniquement.
+- **Visuels (images, captures)** : [CC BY-ND 4.0](./Licence-visuels.md).
 
 Creative Commons Attribution – NoDerivatives 4.0 International (CC BY-ND 4.0)
 https://creativecommons.org/licenses/by-nd/4.0/
